@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/prdxn-org/axioned-node-starter/issues"
   },
-  "homepage": "https://github.com/prdxn-org/axioned-node-starter#readme"
+  "homepage": "https://github.com/prdxn-org/axioned-node-starter#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
 }
