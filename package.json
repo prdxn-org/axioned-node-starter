@@ -19,5 +19,8 @@
   "homepage": "https://github.com/prdxn-org/axioned-node-starter#readme",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
   }
 }
