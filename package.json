@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A boilerplate for Axioned's NodeJS projects.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/index.js",
     "lint": "eslint . --ext .js --ignore-pattern node_modules/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
