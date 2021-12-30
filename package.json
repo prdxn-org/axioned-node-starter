@@ -4,7 +4,7 @@
   "description": "A boilerplate for Axioned's NodeJS projects.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
+    "lint": "eslint . --ext .js --ignore-pattern node_modules/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
@@ -23,5 +23,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "husky": "^7.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
