@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A boilerplate for Axioned's NodeJS projects.",
   "engines": {
-    "node": ">=14 <=16"
+    "node": ">=14 <=17"
   },
   "main": "index.js",
   "type": "module",
