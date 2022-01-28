@@ -12,7 +12,7 @@
     "test": "jest --config jest.config.cjs --coverage=false",
     "prepare": "husky install",
     "dev": "nodemon src/index.js",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
