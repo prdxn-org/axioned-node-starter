@@ -12,7 +12,7 @@
 ## Installation Guide
 
 **Nodejs:** [Download](https://nodejs.org/en/download/)
-_version:-_ `>=14.18.2 <=16.x.x`
+_version:-_ `>=14.x.x <=17.x.x`
 
 ### Develpment Setup
 1. Clone the repository and install dependencies
@@ -29,4 +29,12 @@ _version:-_ `>=14.18.2 <=16.x.x`
 4. Start the application
    ```
    $ npm run develop
+   ```
+5. Run tests
+   ```
+   $ npm run test
+   ```
+6. Run lint checks
+   ```
+   $ npm run lint
    ```
