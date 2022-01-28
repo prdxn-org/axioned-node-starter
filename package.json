@@ -4,7 +4,7 @@
   "description": "A boilerplate for Axioned's NodeJS projects.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
+    "lint": "eslint '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,9 @@
     "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3"
-  }
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "src/tests"
+  ]
 }
