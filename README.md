@@ -1,6 +1,29 @@
 # Axioned-Node Starter Repo
 
 ### Getting Started
+The node-starter repo comes bundled with an express server, swagger documentation, file/folder structure, file watcher (nodemon) jest testing suite, dotenv, eslint & husky.
+
+## Learn More About Folder Structure :
+```
+└── src
+    ├── index.js (Main entry file)
+    ├── controller (Only Business logic)
+    │   └── [Model]Controller.js
+    ├── entity (Database models)
+    │   └── [ModelName].js
+    ├── helpers
+    │    └── [HelperFunctionName].js
+    ├── middleware
+    │   └── index.js
+    ├── repository (Only Database operations)
+    │   └── [Model]Respositry.js 
+    ├── routes
+    │   └── [Model]Route.js
+    ├── tests
+    │   └── [IndividualTests].js
+    
+```
+
 * Change node & npm version with require version of the project.
 * Run npm install to install project dependencies.
 * Add require vs code extensions as below.
