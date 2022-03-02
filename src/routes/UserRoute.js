@@ -5,7 +5,7 @@ const UserRoutes = Router();
 
 /**
  * @swagger
- * /:
+ * /api/v1/user/:
  *   get:
  *     summary: Retrieve a list of users
  *     description: Retrieve a list of users.
@@ -21,8 +21,8 @@ UserRoutes.get('/', GetUserData);
 
 /**
  * @swagger
- * /update:
- *   get:
+ * /api/v1/user/update:
+ *   patch:
  *     summary: update a user.
  *     description: update a users. Can be used to update a user when prototyping or testing an API.
  *     responses:
