@@ -3,6 +3,11 @@ import express, { NextFunction, Request, Response } from "express";
 import { Routes } from './routes/routes';
 import Error from './types/Error';
 const cors = require('cors');
+import swaggerUi from 'swagger-ui-express';
+import YAML from 'yamljs';
+
+const swaggerDocument = YAML.load('src/tools/swagger.yml');
+
 
 const app = express()
 
@@ -15,6 +20,9 @@ app.get('/', (_req: Request, res: Response) => res.status(200).send('OK'));
 
 // all routes
 app.use('/', Routes);
+
+// Swagger documentation route
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // error handling
 app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
