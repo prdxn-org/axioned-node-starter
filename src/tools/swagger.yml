@@ -38,7 +38,7 @@ components:
 tags:
   - name: User
 paths:
-  /api/user/:
+  /user/:
     post:
       tags:
         - User
@@ -71,7 +71,7 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/User"
-  /api/user/{userId}:
+  /user/{userId}:
     get:
       tags:
         - User
