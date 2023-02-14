@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.17.0"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:dev": "tsc --watch --preserveWatchOutput --noEmit",
@@ -13,10 +16,6 @@
     "test": "jest -i --verbose",
     "test:coverage": "jest --coverage --verbose",
     "test:integration": "jest -i --verbose -c jest.integration.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vipiny35/ts-prisma-api.git"
   },
   "prisma": {
     "schema": "src/prisma/schema.prisma",
