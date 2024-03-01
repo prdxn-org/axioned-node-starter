@@ -10,7 +10,7 @@ dependencies:
     version: 7.1.1
   '@prisma/client':
     specifier: ^5.7.1
-    version: 5.7.1(prisma@5.7.1)
+    version: 5.10.2(prisma@5.7.1)
   cors:
     specifier: ^2.8.5
     version: 2.8.5
@@ -624,8 +624,8 @@ packages:
       uuid: 8.3.2
     dev: false
 
-  /@prisma/client@5.7.1(prisma@5.7.1):
-    resolution: {integrity: sha512-TUSa4nUcC4nf/e7X3jyO1pEd6XcI/TLRCA0KjkA46RDIpxUaRsBYEOqITwXRW2c0bMFyKcCRXrH4f7h4q9oOlg==}
+  /@prisma/client@5.10.2(prisma@5.7.1):
+    resolution: {integrity: sha512-ef49hzB2yJZCvM5gFHMxSFL9KYrIP9udpT5rYo0CsHD4P9IKj473MbhU1gjKKftiwWBTIyrt9jukprzZXazyag==}
     engines: {node: '>=16.13'}
     requiresBuild: true
     peerDependencies:
